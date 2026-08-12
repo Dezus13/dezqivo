@@ -11,3 +11,10 @@
 .env
 .env.*
 !.env.example
+
+# Локальные зависимости и результаты сборки
+node_modules/
+.next/
+out/
+build/
+*.tsbuildinfo
